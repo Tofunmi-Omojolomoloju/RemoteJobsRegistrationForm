@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overall {
+    position: relative;
+    overflow: hidden;
+    background-color: #d6d6d6;
+    width: 100vw;
+}
+
+.box.active {
+    margin: 100px 180px;
+    display: flex;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
+.box {
+    margin: 100px 180px;
+    display: flex;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    width: 75%;
+    left: 0;
+    transition: left 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*.box2 {
+    margin: 100px 180px;
+    display: flex;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box3 {
+    margin: 100px 180px;
+    display: flex;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box4 {
+    margin: 100px 180px;
+    display: flex;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.brand {
+    width: 35%;
+    background-image: url(/linkedin-sales-solutions-0QvTyp0gH3A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: white;
+}
+
+.brandName {
+    display: flex;
+    font-size: 50px;
+}
+
+.name1 {
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+form {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+/* .form1 {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.form2 {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.form3 {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.form4 {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+} */
+
+.multiForm {
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.multiForm > h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.multiForm > p {
+    margin-bottom: 15px;
+    color: #656363;
+    font-size: 12px;
+}
+
+.multiForm > input {
+    display: block;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+.multiForm input::placeholder {
+    color: #b3aeae;
+    padding-left: 25px;
+}
+
+.forgotPassword {
+    display: flex;
+    margin-bottom: 15px;
+    color:#656363 ;
+    font-size: 12px;
+}
+
+.forgotPassword > a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+}
+
+.forgotPassword > a:hover {
+    color: #423f3f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.signIn{
+    width: 60%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.signIn:hover {
+    background-color: #423f3f;
+    
+}
+
+.noAccount {
+    display: flex;
+    color: #656363;
+    font-size: 12px;
+    margin-left:60px ;
+}
+
+.noAccount > button {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+}
+
+.noAccount > a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+}
+
+.noAccount > a:hover {
+    color: #423f3f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.noAccount > button:hover {
+    color: #423f3f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.steps {
+    width: 35%;
+   background-color: #000000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: #ffffffea;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.each {
+    display: flex;
+}
+
+.each1 {
+    display: flex;
+    color: #8d8888ea;
+}
+
+
+
+.pp {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.pp > p {
+    font-size: 12px;
+}
+
+.circle {
+    border: 1px solid #ffffffea;
+    background-color: #ffffffea;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    border: 1px solid #8d8888ea;
+    background-color: #8d8888ea;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.line {
+    border-right: 1px solid white;
+    height: 50px;
+    margin-left: 111px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.line1 {
+    border-right: 1px solid #8d8888ea;
+    height: 50px;
+    margin-left: 111px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.names {
+    display: flex;
+    gap: 11px;
+}
+
+.names > input {
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    width: 29%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+.names > select {
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    width: 29%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+     color: #b3aeae;
+    padding-left: 25px;
+}
+
+.code > input {
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    width: 14.5%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+     color: #b3aeae;
+    padding-left: 25px;
+}
+
+
+
+.names > select > option {
+    color: black;
+}
+
+.updates {
+    display: flex;
+    margin-bottom: 15px;
+    color:#656363 ;
+    font-size: 10px;
+}
+
+.updates > a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+}
+
+.updates > a:hover {
+    color: #423f3f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#continue{
+    width: 60%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+#continue:hover {
+    background-color: #423f3f;
+}
+
+.exit{
+    width: 60%;
+    background-color:white ;
+    color: black;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.exit:hover {
+    background-color: #423f3f;
+    color: white;
+}
+
+.gnc {
+    display: flex;
+    gap: 12px;
+}
+
+#back{
+    width: 29%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+#back:hover {
+    background-color: #423f3f;
+}
+
+.brandNamee {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    
+}
+
+.name1 {
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+
+.registered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 12px;
+}
+
+i {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.registered > h4 {
+    margin-bottom: 15px;
+}
+
+.registered > p {
+    color: #817f7f;
+}
+
+.registered > a {
+    margin-top: 15px;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    form{
+        display: none;
+    }
+
+    .box.active {
+        margin: 100px, 10px;
+        width: 100%;
+        height: 600PX;
+
+    }
+
+    .brand {
+        width: 100%;
+    }
+}

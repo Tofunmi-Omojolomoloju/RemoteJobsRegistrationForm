@@ -462,7 +462,7 @@ i {
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     body {
         width: 100%;
         height: 100%;
@@ -483,4 +483,4 @@ i {
     .brand {
         width: 100%;
     }
-}
+} */

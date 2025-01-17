@@ -107,11 +107,11 @@ form {
     height: 40px;
     border: none;
     border-radius: 3px;
+    padding: 25px;
 }
 
 .multiForm input::placeholder {
     color: #b3aeae;
-    padding-left: 25px;
 }
 
 .forgotPassword {
@@ -260,6 +260,7 @@ form {
     height: 40px;
     border: none;
     border-radius: 3px;
+    padding-left: 25px;
 }
 
 .names > select {
